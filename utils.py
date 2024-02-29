@@ -28,7 +28,9 @@ def criteria(num_view, output, w_list, feature_list, flt_list, Lambda):
     loss_rec = 0.
     loss_reg = 0.
     for v in range(num_view):
+        # TODO 三个W，在GCN中被激活过的W，确实是用来直接线性重构的吗。
         loss_rec += torch.norm(-output.mm(w_list[num_view*2+v].t()).mm(w_list[v*2+1].t()).mm(w_list[v*2].t())+feature_list[v]) ** 2
+        # 图正则，spmm效率更高，因为核做到了稀疏化所以这样性能更好
         loss_reg += torch.trace(output.t().mm(torch.spmm(flt_list[v], output)))
         torch.cuda.empty_cache()
     return loss_rec + Lambda * loss_reg

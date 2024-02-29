@@ -35,11 +35,26 @@ if __name__ == '__main__':
     parser.add_argument("--dataset", type=str, default="Citeseer", help="Dataset name")
     parser.add_argument("--knn", type=int, default=30, help="k nearest neighbors")
     args = parser.parse_args()
+    # 读入的可以是原始的数据，例如原本的MNIST(60000, 780)
+    # 也可以是通过提取器提取出来的特征如通过
+    #   30-D IsoProjection, 9-D Linear Discriminant Analysis and 9-D Neighborhood Preserving Embedding features
+    #   提取出来的multi-view MNIST((2000, 30),(2000, 9),(2000, 30))
     data = sio.loadmat(args.path + args.dataset + '.mat')
     features = data['X']
+    
+    print(dir(data))
+    print(data.keys())
+    print(data['__header__'])
+    
+    # features = data['Z']
+    print(features.shape)
+    print(features)
+    # exit(0)
 
     for i in range(features.shape[1]):
         feature = normalize(features[0][i])
+        print(feature.shape)
+        continue
         if ss.isspmatrix(feature):
             feature = feature.todense()
         print("Constructing the laplacian matrix of " + str(i) + "th view of " + args.dataset)
