@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-03-01T07:03:49.844412",
+    "startedAt": "2024-03-01T07:03:47.545106",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\temp\\Graduation_Design\\IMvGCN\\demo.py",
+    "codePathLocal": "demo.py",
+    "codePath": "demo.py",
+    "host": "stanh-16k",
+    "username": "stanh",
+    "executable": "D:\\Users\\stanh\\anaconda3\\envs\\pytorch\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 337.3374938964844,
+            "used": 297.9818992614746
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 15.24435806274414
+    }
+}

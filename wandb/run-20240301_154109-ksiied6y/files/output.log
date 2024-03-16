@@ -1,0 +1,49 @@
+Loading laplacian matrix from the 0th view of Citeseer
+Loading laplacian matrix from the 1th view of Citeseer
+Labeled sample: 33
+[3703, 462, 115]
+[3312, 414, 103]
+
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:03<00:00,  6.58it/s, Loss=1.658287, ACC=62.64, F1=57.56]
+Evaluating the model
+ACC: 62.64, F1: 57.56
+Loading laplacian matrix from the 0th view of Citeseer
+Loading laplacian matrix from the 1th view of Citeseer
+Labeled sample: 33
+[3703, 462, 115]
+[3312, 414, 103]
+Training:  70%|████████████████████████████████████████████████████████████▏                         | 14/20 [00:01<00:00,  7.70it/s, Loss=1.658268, ACC=62.21, F1=56.95]
+Evaluating the model
+ACC: 62.89, F1: 57.99
+Loading laplacian matrix from the 0th view of Citeseer
+Loading laplacian matrix from the 1th view of Citeseer
+Labeled sample: 33
+[3703, 462, 115]
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:02<00:00,  7.69it/s, Loss=1.653673, ACC=62.89, F1=57.99]
+Training:  25%|█████████████████████▊                                                                 | 5/20 [00:00<00:01,  7.71it/s, Loss=1.673972, ACC=63.22, F1=58.22]
+Evaluating the model
+ACC: 63.10, F1: 58.01
+
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:02<00:00,  7.47it/s, Loss=1.654379, ACC=63.10, F1=58.01]
+Training:  55%|███████████████████████████████████████████████▎                                      | 11/20 [00:01<00:01,  7.09it/s, Loss=1.654994, ACC=62.49, F1=57.12]
+Loading laplacian matrix from the 1th view of Citeseer
+Labeled sample: 33
+[3703, 462, 115]
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:02<00:00,  7.21it/s, Loss=1.653224, ACC=62.79, F1=57.78]
+Training:   0%|                                                                                                                                   | 0/20 [00:00<?, ?it/s]
+Evaluating the model
+ACC: 62.79, F1: 57.78
+Loading laplacian matrix from the 0th view of Citeseer
+Loading laplacian matrix from the 1th view of Citeseer
+Labeled sample: 33
+[3703, 462, 115]
+
+Training:  85%|█████████████████████████████████████████████████████████████████████████             | 17/20 [00:02<00:00,  7.59it/s, Loss=1.654810, ACC=63.59, F1=58.16]
+Evaluating the model
+ACC: 62.73, F1: 57.50
+====================
+Citeseer 0.01
+ACC: 62.83 (0.16)
+F1 : 57.77 (0.21)
+
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:02<00:00,  7.53it/s, Loss=1.654132, ACC=62.73, F1=57.50]

@@ -1,0 +1,40 @@
+2024-03-01 15:41:22,251 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 15:41:22,251 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Configure stats pid to 73896
+2024-03-01 15:41:22,251 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 15:41:22,251 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 15:41:22,251 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 15:41:22,251 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 15:41:22,252 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 15:41:22,252 INFO    MainThread:73896 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_154122-k6kera0s\logs\debug.log
+2024-03-01 15:41:22,252 INFO    MainThread:73896 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_154122-k6kera0s\logs\debug-internal.log
+2024-03-01 15:41:22,252 INFO    MainThread:73896 [wandb_init.py:init():566] calling init triggers
+2024-03-01 15:41:22,252 INFO    MainThread:73896 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 15:41:22,252 INFO    MainThread:73896 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-01 15:41:25,528 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 15:41:25,529 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Configure stats pid to 73896
+2024-03-01 15:41:25,529 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 15:41:25,529 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 15:41:25,529 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 15:41:25,529 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 15:41:25,530 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 15:41:25,530 INFO    MainThread:73896 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_154125-62y8k50v\logs\debug.log
+2024-03-01 15:41:25,530 INFO    MainThread:73896 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_154125-62y8k50v\logs\debug-internal.log
+2024-03-01 15:41:25,531 INFO    MainThread:73896 [wandb_init.py:init():566] calling init triggers
+2024-03-01 15:41:25,531 INFO    MainThread:73896 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 15:41:25,531 INFO    MainThread:73896 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-01 15:41:28,893 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 15:41:28,893 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Configure stats pid to 73896
+2024-03-01 15:41:28,893 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 15:41:28,894 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 15:41:28,894 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 15:41:28,894 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 15:41:28,894 INFO    MainThread:73896 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 15:41:28,895 INFO    MainThread:73896 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_154128-aanha2ld\logs\debug.log
+2024-03-01 15:41:28,895 INFO    MainThread:73896 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_154128-aanha2ld\logs\debug-internal.log
+2024-03-01 15:41:28,895 INFO    MainThread:73896 [wandb_init.py:init():566] calling init triggers
+2024-03-01 15:41:28,895 INFO    MainThread:73896 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 15:41:28,895 INFO    MainThread:73896 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-01 15:41:40,829 WARNING MsgRouterThr:73896 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,54 @@
+2024-03-01 14:52:44,313 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 14:52:44,313 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Configure stats pid to 36376
+2024-03-01 14:52:44,313 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 14:52:44,313 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 14:52:44,313 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 14:52:44,313 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 14:52:44,314 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 14:52:44,314 INFO    MainThread:36376 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_145244-8e9cg4dk\logs\debug.log
+2024-03-01 14:52:44,314 INFO    MainThread:36376 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_145244-8e9cg4dk\logs\debug-internal.log
+2024-03-01 14:52:44,314 INFO    MainThread:36376 [wandb_init.py:init():566] calling init triggers
+2024-03-01 14:52:44,314 INFO    MainThread:36376 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 14:52:44,314 INFO    MainThread:36376 [wandb_init.py:init():591] re-initializing run, found existing run on stack: n7iiggrs
+2024-03-01 14:52:44,314 INFO    MainThread:36376 [wandb_run.py:_finish():1970] finishing run william_huangg/IMvGCN-original/n7iiggrs
+2024-03-01 14:52:44,315 INFO    MainThread:36376 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-01 14:52:44,315 INFO    MainThread:36376 [wandb_run.py:_restore():2193] restore
+2024-03-01 14:52:44,315 INFO    MainThread:36376 [wandb_run.py:_restore():2199] restore done
+2024-03-01 14:52:52,080 INFO    MainThread:36376 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-01 14:52:52,080 INFO    MainThread:36376 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-01 14:52:52,085 INFO    MainThread:36376 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-03-01 14:52:52,643 INFO    MainThread:36376 [wandb_init.py:init():616] starting backend
+2024-03-01 14:52:52,643 INFO    MainThread:36376 [wandb_init.py:init():620] setting up manager
+2024-03-01 14:52:52,645 INFO    MainThread:36376 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-01 14:52:52,645 INFO    MainThread:36376 [wandb_init.py:init():628] backend started and connected
+2024-03-01 14:52:52,648 INFO    MainThread:36376 [wandb_init.py:init():720] updated telemetry
+2024-03-01 14:52:52,649 INFO    MainThread:36376 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-01 14:52:58,668 INFO    MainThread:36376 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-01 14:53:02,236 INFO    MainThread:36376 [wandb_run.py:_on_init():2271] got version response 
+2024-03-01 14:53:02,236 INFO    MainThread:36376 [wandb_init.py:init():804] starting run threads in backend
+2024-03-01 14:53:05,193 INFO    MainThread:36376 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-01 14:53:05,193 INFO    MainThread:36376 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-01 14:53:05,193 INFO    MainThread:36376 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-01 14:53:05,195 INFO    MainThread:36376 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-01 14:53:05,196 INFO    MainThread:36376 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-01 14:53:09,021 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 14:53:09,021 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Configure stats pid to 36376
+2024-03-01 14:53:09,021 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 14:53:09,022 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 14:53:09,022 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 14:53:09,022 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 14:53:09,022 INFO    MainThread:36376 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 14:53:09,023 INFO    MainThread:36376 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_145309-isxjh7wt\logs\debug.log
+2024-03-01 14:53:09,023 INFO    MainThread:36376 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_145309-isxjh7wt\logs\debug-internal.log
+2024-03-01 14:53:09,023 INFO    MainThread:36376 [wandb_init.py:init():566] calling init triggers
+2024-03-01 14:53:09,023 INFO    MainThread:36376 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 14:53:09,023 INFO    MainThread:36376 [wandb_init.py:init():591] re-initializing run, found existing run on stack: 8e9cg4dk
+2024-03-01 14:53:09,024 INFO    MainThread:36376 [wandb_run.py:_finish():1970] finishing run william_huangg/IMvGCN-original/8e9cg4dk
+2024-03-01 14:53:09,024 INFO    MainThread:36376 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-01 14:53:09,024 INFO    MainThread:36376 [wandb_run.py:_restore():2193] restore
+2024-03-01 14:53:09,024 INFO    MainThread:36376 [wandb_run.py:_restore():2199] restore done
+2024-03-01 14:53:20,277 INFO    MainThread:36376 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-01 14:53:20,278 INFO    MainThread:36376 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-01 14:53:20,282 INFO    MainThread:36376 [wandb_run.py:_footer_sync_info():3825] logging synced files

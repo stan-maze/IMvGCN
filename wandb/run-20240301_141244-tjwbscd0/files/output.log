@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\temp\Graduation_Design\IMvGCN\main.py", line 70, in <module>
+    with wandb.run(name=f"run {i+1}"):
+TypeError: 'Run' object is not callable

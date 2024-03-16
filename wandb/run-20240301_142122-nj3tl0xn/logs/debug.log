@@ -1,0 +1,79 @@
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Configure stats pid to 87740
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142122-nj3tl0xn\logs\debug.log
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142122-nj3tl0xn\logs\debug-internal.log
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_init.py:init():566] calling init triggers
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_init.py:init():616] starting backend
+2024-03-01 14:21:22,751 INFO    MainThread:87740 [wandb_init.py:init():620] setting up manager
+2024-03-01 14:21:22,752 INFO    MainThread:87740 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-01 14:21:22,753 INFO    MainThread:87740 [wandb_init.py:init():628] backend started and connected
+2024-03-01 14:21:22,758 INFO    MainThread:87740 [wandb_init.py:init():720] updated telemetry
+2024-03-01 14:21:22,758 INFO    MainThread:87740 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-01 14:21:23,840 INFO    MainThread:87740 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-01 14:21:24,897 INFO    MainThread:87740 [wandb_run.py:_on_init():2271] got version response 
+2024-03-01 14:21:24,898 INFO    MainThread:87740 [wandb_init.py:init():804] starting run threads in backend
+2024-03-01 14:21:27,852 INFO    MainThread:87740 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-01 14:21:27,853 INFO    MainThread:87740 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-01 14:21:27,853 INFO    MainThread:87740 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-01 14:21:27,853 INFO    MainThread:87740 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-01 14:21:27,853 INFO    MainThread:87740 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Configure stats pid to 87740
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 14:21:32,366 INFO    MainThread:87740 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142132-8ienqd5v\logs\debug.log
+2024-03-01 14:21:32,367 INFO    MainThread:87740 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142132-8ienqd5v\logs\debug-internal.log
+2024-03-01 14:21:32,367 INFO    MainThread:87740 [wandb_init.py:init():566] calling init triggers
+2024-03-01 14:21:32,367 INFO    MainThread:87740 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 14:21:32,367 INFO    MainThread:87740 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-01 14:21:35,737 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 14:21:35,737 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Configure stats pid to 87740
+2024-03-01 14:21:35,737 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 14:21:35,737 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 14:21:35,737 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 14:21:35,737 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 14:21:35,738 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 14:21:35,738 INFO    MainThread:87740 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142135-11d4m8kh\logs\debug.log
+2024-03-01 14:21:35,738 INFO    MainThread:87740 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142135-11d4m8kh\logs\debug-internal.log
+2024-03-01 14:21:35,738 INFO    MainThread:87740 [wandb_init.py:init():566] calling init triggers
+2024-03-01 14:21:35,739 INFO    MainThread:87740 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 14:21:35,739 INFO    MainThread:87740 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-01 14:21:39,143 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 14:21:39,143 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Configure stats pid to 87740
+2024-03-01 14:21:39,143 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 14:21:39,143 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 14:21:39,143 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 14:21:39,143 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 14:21:39,144 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 14:21:39,144 INFO    MainThread:87740 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142139-3uc3me90\logs\debug.log
+2024-03-01 14:21:39,144 INFO    MainThread:87740 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142139-3uc3me90\logs\debug-internal.log
+2024-03-01 14:21:39,144 INFO    MainThread:87740 [wandb_init.py:init():566] calling init triggers
+2024-03-01 14:21:39,144 INFO    MainThread:87740 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 14:21:39,144 INFO    MainThread:87740 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-01 14:21:42,512 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-01 14:21:42,512 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Configure stats pid to 87740
+2024-03-01 14:21:42,512 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from C:\Users\stanh\.config\wandb\settings
+2024-03-01 14:21:42,512 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from D:\temp\Graduation_Design\IMvGCN\wandb\settings
+2024-03-01 14:21:42,513 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-01 14:21:42,513 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-01 14:21:42,516 INFO    MainThread:87740 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py', 'program': 'D:\\temp\\Graduation_Design\\IMvGCN\\main.py'}
+2024-03-01 14:21:42,517 INFO    MainThread:87740 [wandb_init.py:_log_setup():526] Logging user logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142142-qtpiwacu\logs\debug.log
+2024-03-01 14:21:42,517 INFO    MainThread:87740 [wandb_init.py:_log_setup():527] Logging internal logs to D:\temp\Graduation_Design\IMvGCN\wandb\run-20240301_142142-qtpiwacu\logs\debug-internal.log
+2024-03-01 14:21:42,517 INFO    MainThread:87740 [wandb_init.py:init():566] calling init triggers
+2024-03-01 14:21:42,517 INFO    MainThread:87740 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'device': '0', 'path': './data/datasets/', 'dataset': 'Citeseer', 'seed': 42, 'fix_seed': True, 'n_repeated': 5, 'lr': 0.01, 'weight_decay': 0, 'dropout': 0.3, 'ratio': 0.01, 'num_epoch': 20, 'Lambda': 0.5, 'alpha': 1e-07, 'dim1': 8, 'dim2': 32}
+2024-03-01 14:21:42,518 INFO    MainThread:87740 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-01 14:21:52,438 WARNING MsgRouterThr:87740 [router.py:message_loop():77] message_loop has been closed
